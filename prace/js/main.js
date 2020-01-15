@@ -28,7 +28,7 @@ $(document).ready(function(){
 	//
 	$('.slider-photos').slick({
 	  infinite: true,
-	  // lazyLoad: 'ondemand',
+	  lazyLoad: 'progressive',
 		speed: 300,
 	  slidesToShow: 1,
 	  variableWidth: true,
@@ -51,9 +51,12 @@ $(document).ready(function(){
 
 	$('.slider-photos4').slick({
 		  infinite: true,
+			lazyLoad: 'progressive',
+			speed: 200,
 		  slidesToShow: 1,
 		  variableWidth: true,
 		  slidesToScroll: 1,
+			centerMode: true
 		});
 
 
