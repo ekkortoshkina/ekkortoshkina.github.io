@@ -10604,11 +10604,6 @@ img {
         position: relative;
         z-index: 16;
       }
-
-      .slick-slide.promo-speakers__item:last-child .promo-speakers__photos--inner{
-        position: relative;
-        z-index: 1;
-      }
     }
 
 

@@ -37,6 +37,7 @@ $(document).ready(function(){
 
 	$('.slider-photos2').slick({
 	  infinite: true,
+		lazyLoad: 'progressive',
 	  slidesToShow: 1,
 	  variableWidth: true,
 	  slidesToScroll: 1,
@@ -44,6 +45,7 @@ $(document).ready(function(){
 
 	$('.slider-photos3').slick({
 		  infinite: true,
+			lazyLoad: 'progressive',
 		  slidesToShow: 1,
 		  variableWidth: true,
 		  slidesToScroll: 1,
@@ -57,7 +59,8 @@ $(document).ready(function(){
 		  variableWidth: true,
 		  slidesToScroll: 4,
 			centerMode: true,
-			swipeToSlide: true
+			swipeToSlide: true,
+			initialSlide: 1
 		});
 
 
