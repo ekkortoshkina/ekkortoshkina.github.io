@@ -55,7 +55,7 @@ $(document).ready(function(){
 			speed: 200,
 		  slidesToShow: 1,
 		  variableWidth: true,
-		  slidesToScroll: 1,
+		  slidesToScroll: 4,
 			centerMode: true,
 			swipeToSlide: true
 		});
