@@ -10547,7 +10547,7 @@ img {
       .slick-slide.promo-speakers__item:nth-child(5) .promo-speakers__photos--inner{
         position: relative;
         z-index: 5;
-        margin-right: -95px;
+        margin-right: -55px;
       }
 
       .slick-slide.promo-speakers__item:nth-child(6) .promo-speakers__photos--inner{
@@ -10596,6 +10596,16 @@ img {
       }
 
       .slick-slide.promo-speakers__item:nth-child(15) .promo-speakers__photos--inner{
+        position: relative;
+        z-index: 15;
+      }
+
+      .slick-slide.promo-speakers__item:nth-child(16) .promo-speakers__photos--inner{
+        position: relative;
+        z-index: 16;
+      }
+
+      .slick-slide.promo-speakers__item:last-child .promo-speakers__photos--inner{
         position: relative;
         z-index: 1;
       }
