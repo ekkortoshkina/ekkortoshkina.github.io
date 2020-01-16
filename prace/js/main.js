@@ -53,7 +53,6 @@ $(document).ready(function(){
 		  variableWidth: true,
 		  slidesToScroll: 1,
 			centerMode: true,
-			swipeToSlide: true,
 			initialSlide: 1
 	});
 
@@ -65,7 +64,6 @@ $(document).ready(function(){
 		  variableWidth: true,
 		  slidesToScroll: 1,
 			centerMode: true,
-			swipeToSlide: true,
 			initialSlide: 1
 		});
 
