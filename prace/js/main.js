@@ -35,7 +35,7 @@ $(document).ready(function(){
 	  slidesToScroll: 1,
 		centerMode: true,
 		swipeToSlide: true,
-		initialSlide: 1
+		initialSlide: 0
 	});
 
 	$('.slider-photos2').slick({
