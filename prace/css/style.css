@@ -6570,6 +6570,11 @@ img {
         max-width: 100%;
         padding: 0 20px
     }
+
+    .new-promo {
+      padding: 0 20px;
+    }
+
     .fixed-header {
         display: none
     }
@@ -6587,6 +6592,7 @@ img {
         height: auto;
         text-align: center
     }
+
     .header.register-header.presents-header .promo-wrapper:before {
         display: none
     }
@@ -6612,6 +6618,10 @@ img {
     .header .container {
         max-width: 100%;
         padding: 0 20px
+    }
+    .header .container:last-of-type {
+        max-width: 100%;
+        padding: 0;
     }
     .header.master-group_header {
         height: 1024px;
@@ -9446,6 +9456,8 @@ img {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         border: 3px solid #da021f;
+        border-left: none;
+        border-right: none;
     }
     .promo-speakers__photos--inner.promo-speakers--last .promo-speakers-link{
         position: relative;
@@ -10695,6 +10707,10 @@ img {
         position: relative;
         z-index: 16;
       }
+    }
+
+    .fast-reg {
+      padding: 25px 60px 30px 23px;
     }
 
 
