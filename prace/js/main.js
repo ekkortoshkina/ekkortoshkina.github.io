@@ -33,6 +33,9 @@ $(document).ready(function(){
 	  slidesToShow: 1,
 	  variableWidth: true,
 	  slidesToScroll: 1,
+		centerMode: true,
+		swipeToSlide: true,
+		initialSlide: 1
 	});
 
 	$('.slider-photos2').slick({
@@ -49,6 +52,9 @@ $(document).ready(function(){
 		  slidesToShow: 1,
 		  variableWidth: true,
 		  slidesToScroll: 1,
+			centerMode: true,
+			swipeToSlide: true,
+			initialSlide: 1
 	});
 
 	$('.slider-photos4').slick({
@@ -57,7 +63,7 @@ $(document).ready(function(){
 			speed: 200,
 		  slidesToShow: 1,
 		  variableWidth: true,
-		  slidesToScroll: 4,
+		  slidesToScroll: 1,
 			centerMode: true,
 			swipeToSlide: true,
 			initialSlide: 1
